@@ -1,0 +1,165 @@
+/*-------------------------------------------------------------- HEADING-SECTION ------------------------------------------------------------*/
+
+
+#top-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.74)), url(Resourses/Images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    padding: 3% 10%;  
+}
+
+@media (max-width:1028px){
+    #top-content{
+        text-align: center;
+    } 
+    
+}
+
+.logo-img{
+    
+    width: 70px;
+}
+
+h1{
+    
+    font-size: 50px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.feater-button {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+.top-heading {
+    margin-top: 50px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+/*------------------------------------------------------------------ SECTION-FEATURES ---------------------------------------------------------*/
+
+#features {
+    margin: 3% 5%;
+    text-align: center;
+}
+
+
+
+
+.icon-img {
+    color: orangered;
+    font-size: 40px;
+}
+
+.feature-heading{
+    margin-bottom: 30px;
+}
+
+hr{
+    
+    border-style: none;
+    width: 20%;
+    background-color: orangered;
+}
+
+
+/*----------------------------------------------------------------- FOOD-SECTION ------------------------------------------------*/
+
+#food-images {
+    
+    margin: 3% 15%;
+    text-align: center;
+ 
+}
+
+.fast-food{
+    
+    width: 80%;
+    height: auto;
+}
+
+
+/*-------------------------------------------------------------------- HOW-IT-WORKS SECTION ------------------------------------------*/
+
+
+#how-it-works{
+    padding: 3% 10%;
+    text-align: center;
+    background-color:#ebebeb;
+    
+}
+
+.iphone-image{
+    
+    height: 350px;
+    width: auto;
+}
+
+.work-para {
+    padding: 20px 50px;
+}
+
+.work-heading {
+   margin-bottom: 40px;
+}
+
+/*------------------------------------------------------------------ TESTIMONIALS-SECTION --------------------------------------------*/
+
+#testimonials{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url(Resourses/Images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+
+
+
+.test-heading {
+    margin-bottom: 30px;
+}
+
+.coustemer-img {
+    border-radius: 100%;
+}
+
+/*-------------------------------------------------------------- PRICING ------------------------------------------------------*/
+
+#pricing{
+    
+    padding: 3% 10%;
+    
+}
+
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card{
+    margin: 30px 10px;
+}
+
+/*----------------------------------------------------------------- FOOTER -------------------------------------------------------*/
+
+
+#footer {
+    padding: 1% 10%;
+    text-align: center;
+    background-color: #dbdbdb;
+}
+
+.social-icon {
+    margin: 10px 10px;
+}
